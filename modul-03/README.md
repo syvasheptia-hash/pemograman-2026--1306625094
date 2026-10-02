@@ -1,16 +1,28 @@
-# Modul [03] - [Nama Topik Modul]
+# Modul [03] - [Trigonometril]
 
-**Nama:** [Nama Mahasiswa]  
+**Nama:** [syva sheptia melani]  
 **NIM:** [NIM Mahasiswa]  
 **Kelas:** [Kelas/Kelompok]  
 
 ---
 
 ## 1. Problem Statement
-> Jelaskan latar belakang masalah, parameter yang diketahui, serta tujuan dari praktikum atau pemodelan pada modul ini.
+Membuat program untuk menghitung nilai sin dan cos dengan mendekatkan deret Mc Laurin.
 
 ## 2. Mathematical Equation
-> Tuliskan persamaan fisika/matematika, rumus numerik, atau penurunan rumus yang digunakan dalam modul ini menggunakan format LaTeX.
+ a. Deret Mclaurin untuk sinus:
+ \begin{equation}
+\sin x = x - \frac{x^3}{3!} + \frac{x^5}{5!} - \frac{x^7}{7!} + \cdots
+\label{eq:sin_mclaurin}
+\end{equation}
+
+ B. Deret Mclaurin untuk COS:
+ \begin{equation}
+\cos x = 1 - \frac{x^2}{2!} + \frac{x^4}{4!} - \frac{x^6}{6!} + \cdots
+\label{eq:cos_mclaurin}
+\end{equation}
+
+ C. Rumus Relative Error (Er):
 
 ## 3. Algorithm
 > Tuliskan langkah-langkah logika penyelesaian masalah secara sistematis sebelum diimplementasikan ke dalam kode Python (`main.py`).
